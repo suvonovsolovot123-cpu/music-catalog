@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musiqa Asboblari Katalogi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Musiqa Asboblari Katalogi</h1>
+    <nav>
+      <a href="index.html">Bosh sahifa</a>
+      <a href="cholgular.html">Torli cholg‘ular</a>
+      <a href="udar.html">Udar asboblari</a>
+      <a href="naf.html">Nafasli asboblar</a>
+      <a href="klavish.html">Klavishli asboblar</a>
+      <a href="savat.html">Savat</a>
+      <a href="sevimlilar.html">Sevimlilar</a>
+    </nav>
+    <div class="lang-switch">
+      <button onclick="setLanguage('uz')">🇺🇿 Uz</button>
+      <button onclick="setLanguage('ru')">🇷🇺 Ru</button>
+      <button onclick="setLanguage('en')">🇬🇧 En</button>
+    </div>
+  </header>
+  
+  <main>
+    <h2 data-lang="welcome">Xush kelibsiz! Kategoriyani tanlang:</h2>
+    <div class="categories">
+      <a class="category-card" href="cholgular.html">Torli cholg‘ular</a>
+      <a class="category-card" href="udar.html">Udar asboblari</a>
+      <a class="category-card" href="naf.html">Nafasli asboblar</a>
+      <a class="category-card" href="klavish.html">Klavishli asboblar</a>
+    </div>
+  </main>
+</body>
+</html>
